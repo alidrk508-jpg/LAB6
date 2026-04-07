@@ -1,0 +1,36 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFF3E0">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Delicious Pizzas"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:textColor="#3E2723"/>
+
+        <!--
+           Note: Using a ListView inside a ScrollView is generally not recommended
+           because ListView handles its own scrolling.
+           However, to wrap the whole list page in a ScrollView with other elements:
+        -->
+        <ListView
+            android:id="@+id/lvPizzas"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:dividerHeight="6dp"
+            android:nestedScrollingEnabled="true"/>
+
+    </LinearLayout>
+</ScrollView>
