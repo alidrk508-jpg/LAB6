@@ -2,7 +2,7 @@
 
 An Android application that displays a collection of delicious pizza recipes. This project was developed as part of **LAB 6 - Application "Recettes de Pizza"**.
 
-[![Watch the video](images/demo.png)](VD/demo.mp4)
+[![Watch the video](images/demo.png)]([VD/demo.mp4](https://youtube.com/shorts/2bgxLmmftcY?si=t61_uhAGYqqNHZ-y))
 
 ## 📱 Features
 
